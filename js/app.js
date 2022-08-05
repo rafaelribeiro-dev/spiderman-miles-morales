@@ -22,6 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
     )
 
     .fromTo(
+      '.burger',
+      0.7,
+      { y: -50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
       '.nav-list',
       0.7,
       { y: -50, opacity: 0 },
@@ -33,6 +41,46 @@ document.addEventListener('DOMContentLoaded', () => {
       '.nav-social',
       0.7,
       { y: -50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
+      '.title',
+      0.7,
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
+      '.text',
+      0.7,
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
+      '.buttons',
+      0.7,
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
+      '.brands',
+      0.7,
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      '-=0.5'
+    )
+
+    .fromTo(
+      '.spiderman',
+      0.7,
+      { y: 50, opacity: 0 },
       { y: 0, opacity: 1, ease: Expo.easeInOut },
       '-=0.5'
     )

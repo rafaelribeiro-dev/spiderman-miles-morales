@@ -36,8 +36,8 @@
 
 
 .spiderman{
-  width: 140%;
-  transform: translate3d(-140px,-64px,0);
+  width: 120%;
+  transform: translate3d(-180px,-40px,0);
 
   @include responsive(){
     width: 100%;
