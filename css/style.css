@@ -344,7 +344,7 @@ p {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  height: 85vh;
+  height: 80%;
   padding: 36px 16px;
   overflow: none;
   display: flex;
@@ -368,7 +368,7 @@ p {
 
 .spiderman {
   width: 120%;
-  transform: translate3d(-180px, -40px, 0);
+  transform: translate3d(-180px, 0px, 0);
 }
 @media screen and (max-width: 960px) {
   .spiderman {
@@ -593,6 +593,7 @@ header {
 .nav-social {
   display: flex;
   gap: 16px;
+  z-index: 999;
 }
 .nav-social svg {
   cursor: pointer;

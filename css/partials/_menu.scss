@@ -103,7 +103,7 @@ header{
 .nav-social{
   display: flex;
   gap: 16px;
-
+  z-index: 999;
 
   svg{
     cursor: pointer;

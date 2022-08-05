@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '.spiderman',
       0.7,
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, ease: Expo.easeInOut },
+      { y: -40, opacity: 1, ease: Expo.easeInOut },
       '-=0.5'
     )
 })

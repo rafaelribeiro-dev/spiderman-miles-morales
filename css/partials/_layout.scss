@@ -13,7 +13,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  height: 85vh;
+  height: 80%;
   padding: 36px 16px;
   overflow: none;
   display: flex;
@@ -37,7 +37,7 @@
 
 .spiderman{
   width: 120%;
-  transform: translate3d(-180px,-40px,0);
+  transform: translate3d(-180px,-0px,0);
 
   @include responsive(){
     width: 100%;
